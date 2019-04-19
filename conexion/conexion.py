@@ -1,10 +1,12 @@
 import requests
 from clases.producto import Producto
+from clases.productocarrito import ProductoCarrito
 
 #Variables
 
 URL = 'http://localhost:8000/productos'
 URL_VENTAS = 'http://localhost:8000/ventas/'
+URL_FACTURAS = 'http://localhost:8000/facturas/'
 
 def imprimirProductos(listaProductos):
     print()
@@ -16,6 +18,22 @@ def imprimirProductos(listaProductos):
     for i in range(len(listaProductos)):
         info = vars(listaProductos[i])
         print('{:<10} {:<30} $ {:<30}'.format(listaProductos[i].id, listaProductos[i].nombre, listaProductos[i].precio))
+
+def imprimirProductosCarrito(listaProductosCarrito):
+    total = 0
+    print()
+    print("PRODUCTOS REGISTRADOS EN LA VENTA    : ")
+    print()
+
+    print('{:<10} {:<30} {:<10} {:<10} {:<20}'.format("ID", "NOMBRE", "PRECIO", "CANTIDAD", "SUBTOTAL"))
+    print("-------------------------------------------------------------------------")
+    for i in range(len(listaProductosCarrito)):
+        info = vars(listaProductosCarrito[i])
+        total += listaProductosCarrito[i].subtotal
+        print('{:<10} {:<30} $ {:<10} {:<10} $ {:<20}'.format(listaProductosCarrito[i].id, listaProductosCarrito[i].nombre, listaProductosCarrito[i].precio, listaProductosCarrito[i].cantidad, listaProductosCarrito[i].subtotal))
+    print()
+    print(('{:>75}'.format("TOTAL: $ " + str(total))))
+
 
 def imprimirMenuVenta():
     print()
@@ -80,22 +98,39 @@ def registrarVenta():
                 encontro = validarExistenciaProducto(productos, int(id))
                 if encontro:
                     producto = buscarProductoPorId(productosActuales, int(id))
-                    productosEnCarrito.append(producto)
+
+                    productosEnCarrito = ProductoCarrito.crearProductoCarrito(producto, productosEnCarrito)
                     total += producto.precio
+
 
                 else:
                     print("ID inválido. Por favor inténtelo de nuevo.")
         elif opc == 2:
             #Aca imprimo el Carrito (Se va a crear proximamente la clase ProductoCarrito para poder llevar cantidades correctamente)
-            imprimirProductos(productosEnCarrito)
+            #imprimirProductos(productosEnCarrito)
+            imprimirProductosCarrito(productosEnCarrito)
+
         elif opc == 3:
             # Crear objeto Venta y mandar la petición POST
-            print("Total", total)
+            #print("Total", total)
             params = {
                 'costoTotal' : total
             }
             response = requests.post(URL_VENTAS, data=params)
-            #print(response.json())
+            response = response.json()
+            idVenta = response[len(response) - 1]['pk']
+            print("ID VENTA: " + str(idVenta))
+
+            params = {
+                'total' : total,
+                'tipo' : tipo,
+                'aceptada' : aceptada,
+                'venta' : idVenta
+            }
+            response = requests.post(URL_FACTURAS, data=params)
+            response = response.json()
+            idFactura = response[len(response) - 1]['pk']
+            print("ID FACTURA: " + str(idFactura))
         elif opc == 4:
             salir = True
 
