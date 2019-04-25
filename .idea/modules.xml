@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CajaClient.iml" filepath="$PROJECT_DIR$/.idea/CajaClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/.idea/ISIS2503-201910-S2-PYTECH.iml" filepath="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/.idea/ISIS2503-201910-S2-PYTECH.iml" />
     </modules>
   </component>
 </project>

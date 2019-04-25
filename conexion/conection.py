@@ -1,6 +1,7 @@
 import requests
 from clases.producto import Producto
 from clases.productocarrito import ProductoCarrito
+from conexion import verificador
 
 #Variables
 
@@ -114,19 +115,23 @@ def registrarVenta():
             # Crear objeto Venta y mandar la petición POST
             #print("Total", total)
             params = {
+                'hash': verificador.encriptarHash(total),
                 'costoTotal' : total
             }
+
             response = requests.post(URL_VENTAS, data=params)
             response = response.json()
             idVenta = response[len(response) - 1]['pk']
             print("ID VENTA: " + str(idVenta))
 
             params = {
+                'hash': verificador.encriptarHash(total + tipo+ aceptada + idVenta),
                 'total' : total,
                 'tipo' : tipo,
                 'aceptada' : aceptada,
                 'venta' : idVenta
             }
+
             response = requests.post(URL_FACTURAS, data=params)
             response = response.json()
             idFactura = response[len(response) - 1]['pk']
