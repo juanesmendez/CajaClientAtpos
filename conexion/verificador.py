@@ -9,14 +9,14 @@ def encriptar(hash):
        file.close()
        message = hash.encode()
        f = Fernet(key)
-       print ("message Fernet:", message)
+       #print ("message Fernet:", message)
        return f.encrypt(message)
 
 
 def calcularHash( msj):
         msjs = str(msj)
         h = hashlib.new("sha1",msjs.encode())
-        print("HASH:",h.hexdigest())
+        print("HASH CALCULADO:",h.hexdigest())
         return h.hexdigest()
 
 

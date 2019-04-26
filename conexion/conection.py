@@ -118,20 +118,21 @@ def registrarVenta():
                 'costoTotal' : total
             }
             print("total:", total)
-            print(verificador.encriptarHash(total))
+            print("HASH ENCRIPTADO", verificador.encriptarHash(total))
             headers = {'RESUMEN': verificador.encriptarHash(total)}
             #headers = {'RESUMEN': "mi hash bonito"}
             response = requests.post(URL_VENTAS, data=params, headers = headers)
             response = response.json()
             idVenta = response[len(response) - 1]['pk']
             print("ID VENTA: " + str(idVenta))
-
+            print()
             params = {
                 'total' : total,
                 'tipo' : tipo,
                 'aceptada' : aceptada,
                 'venta' : idVenta
             }
+            print("HASH ENCRIPTADO", verificador.encriptarHash(str(total) + str(tipo) + str(aceptada) + str(idVenta)))
             headers = {'RESUMEN': verificador.encriptarHash(str(total) + str(tipo) + str(aceptada) + str(idVenta))}
             response = requests.post(URL_FACTURAS, data=params, headers = headers)
             response = response.json()
