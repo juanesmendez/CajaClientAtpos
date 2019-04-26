@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfe0dfa4-99b9-4af8-a65b-d8d053f9e34a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/CajaClient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CajaClient.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conexion/conection.py" beforeDir="false" afterPath="$PROJECT_DIR$/conexion/conection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conexion/verificador.py" beforeDir="false" afterPath="$PROJECT_DIR$/conexion/verificador.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conexion/conection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="118" column="13" lean-forward="true" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -27,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conexion/verificador.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -37,43 +41,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/verificador.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/forms.py">
+        <entry file="file://$PROJECT_DIR$/conexion/key.key">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <caret column="44" selection-start-column="44" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -87,6 +58,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ec</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -99,11 +75,12 @@
         <option value="$PROJECT_DIR$/clases/producto.py" />
         <option value="$PROJECT_DIR$/clases/productocarrito.py" />
         <option value="$PROJECT_DIR$/conexion/conexion.py" />
-        <option value="$PROJECT_DIR$/conexion/verificador.py" />
         <option value="$PROJECT_DIR$/conexion/prueba.py" />
         <option value="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/models.py" />
         <option value="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/verificador.py" />
         <option value="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/views.py" />
+        <option value="$PROJECT_DIR$/conexion/key.key" />
+        <option value="$PROJECT_DIR$/conexion/verificador.py" />
         <option value="$PROJECT_DIR$/conexion/conection.py" />
       </list>
     </option>
@@ -122,22 +99,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="CajaClientAtpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CajaClientAtpos" type="462c0819:PsiDirectoryNode" />
+              <item name="CajaClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CajaClient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CajaClientAtpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CajaClientAtpos" type="462c0819:PsiDirectoryNode" />
+              <item name="CajaClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CajaClient" type="462c0819:PsiDirectoryNode" />
               <item name="conexion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CajaClientAtpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISIS2503-201910-S2-PYTECH" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CajaClientAtpos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ISIS2503-201910-S2-PYTECH" type="462c0819:PsiDirectoryNode" />
-              <item name="ventas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,6 +173,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conexion/conection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -248,6 +217,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conexion/prueba.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -269,6 +239,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/verificador.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -290,6 +261,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conexion/verificador.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -323,11 +295,12 @@
       <workItem from="1555552753940" duration="2970000" />
       <workItem from="1555618745948" duration="21000" />
       <workItem from="1555618785497" duration="12875000" />
+      <workItem from="1556256050266" duration="5654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15930000" />
+    <option name="totallyTimeSpent" value="21584000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -339,15 +312,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="830" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16815476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1702432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" x="381" y="48" width="879" height="625" id="Run" order="2" type="WINDOWED" visible="true" weight="0.6415712" />
+      <window_info anchor="bottom" x="0" y="45" width="1440" height="808" id="Run" maximized="true" order="2" type="WINDOWED" weight="0.6415712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,8 +329,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32569557" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32569557" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32520324" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32384825" />
       <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="0" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -396,6 +369,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CajaClient$conexion.coverage" NAME="conexion Coverage Results" MODIFIED="1555698811626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conexion" />
     <SUITE FILE_PATH="coverage/CajaClient$producto.coverage" NAME="producto Coverage Results" MODIFIED="1555620023397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conexion" />
+    <SUITE FILE_PATH="coverage/CajaClient$conection.coverage" NAME="conection Coverage Results" MODIFIED="1556261742138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conexion" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/conexion/__init__.py">
@@ -413,13 +387,7 @@
     <entry file="file://$PROJECT_DIR$/seguridad/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/manage.py" />
     <entry file="file://$PROJECT_DIR$/clases/productocarrito.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -434,81 +402,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conexion/prueba.py">
+    <entry file="file://$PROJECT_DIR$/conexion/prueba.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/decoder.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/forms/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/models.py" />
+    <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/forms.py" />
+    <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/key.key" />
+    <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/verificador.py" />
+    <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/views.py" />
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/cryptography/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="237">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="354" selection-start-line="354" selection-end-line="354" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/forms/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/key.key">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/conexion/key.key">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conexion/verificador.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/verificador.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conexion/conection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="118" column="13" lean-forward="true" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
