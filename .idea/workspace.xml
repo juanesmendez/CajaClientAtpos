@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfe0dfa4-99b9-4af8-a65b-d8d053f9e34a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/inventario/urls.py.save.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/inventario/views.py.save" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/inventario/views.py.save.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/inventario/views.py.save.2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/inventario/views.py.save.3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conexion/conection.py" beforeDir="false" afterPath="$PROJECT_DIR$/conexion/conection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/inventario/templates/producto/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/inventario/templates/producto/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/inventario/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/inventario/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/verificador.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/verificador.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conexion/conection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="119" column="64" selection-start-line="119" selection-start-column="64" selection-end-line="119" selection-end-column="64" />
+            <state relative-caret-position="340">
+              <caret line="118" column="13" lean-forward="true" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -60,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
+            <state relative-caret-position="322">
               <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
@@ -349,6 +340,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16815476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -483,16 +475,6 @@
     <entry file="file://$PROJECT_DIR$/conexion/key.key">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conexion/verificador.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -513,10 +495,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../ISIS2503-201910-S2-PYTECH/ventas/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/conexion/conection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="119" column="64" selection-start-line="119" selection-start-column="64" selection-end-line="119" selection-end-column="64" />
+        <state relative-caret-position="340">
+          <caret line="118" column="13" lean-forward="true" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

@@ -117,7 +117,7 @@ def registrarVenta():
             params = {
                 'costoTotal' : total
             }
-            headers = {'hash': verificador.encriptarHash('sdfghj')}
+            headers = {'hash': verificador.encriptarHash(total)}
             response = requests.post(URL_VENTAS, data=params, headers = headers)
             response = response.json()
             idVenta = response[len(response) - 1]['pk']
