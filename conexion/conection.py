@@ -5,9 +5,9 @@ from conexion import verificador
 
 #Variables
 
-URL = 'http://localhost:8000/productos'
-URL_VENTAS = 'http://localhost:8000/ventas/'
-URL_FACTURAS = 'http://localhost:8000/facturas/'
+URL = 'http://3.210.177.133:8000/productos'
+URL_VENTAS = 'http://3.210.177.133:8000/ventas/'
+URL_FACTURAS = 'http://3.210.177.133:8000/facturas/'
 
 def imprimirProductos(listaProductos):
     print()
@@ -117,7 +117,10 @@ def registrarVenta():
             params = {
                 'costoTotal' : total
             }
-            headers = {'hash': verificador.encriptarHash(total)}
+            print("total:", total)
+            print(verificador.encriptarHash(total))
+            headers = {'RESUMEN': verificador.encriptarHash(total)}
+            #headers = {'RESUMEN': "mi hash bonito"}
             response = requests.post(URL_VENTAS, data=params, headers = headers)
             response = response.json()
             idVenta = response[len(response) - 1]['pk']
@@ -129,7 +132,7 @@ def registrarVenta():
                 'aceptada' : aceptada,
                 'venta' : idVenta
             }
-            headers = {'hash': verificador.encriptarHash(str(total) + str(tipo) + str(aceptada) + str(idVenta))}
+            headers = {'RESUMEN': verificador.encriptarHash(str(total) + str(tipo) + str(aceptada) + str(idVenta))}
             response = requests.post(URL_FACTURAS, data=params, headers = headers)
             response = response.json()
             idFactura = response[len(response) - 1]['pk']
